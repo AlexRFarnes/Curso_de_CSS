@@ -1,0 +1,16 @@
+/* Especificidad */
+/* 0,0,1 - Selectores de tipo y pseudoelementos :: */
+/* 0,1,0 - Selectores de clase, pseudoclases : y de atributos [] */
+/* 1,0,0 - Selectores de ID */
+
+.titulo {
+  color: steelblue;
+}
+
+.titulo {
+  color: crimson;
+}
+
+h1 {
+  color: aquamarine;
+}
