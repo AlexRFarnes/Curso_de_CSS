@@ -1,8 +1,60 @@
-.box {
+/* -------------- PADDING --------------- */
+/* padding-top
+  padding-right
+  padding-bottom
+  padding-left
+*/
+
+/* padding: top right bottom left */
+
+/* -------------- BORDER --------------- */
+/* border-top-style
+  border-right-style
+  border-bottom-style
+  border-left-style */
+
+/* border-style: top right bottom left; */
+
+/* border-top-width
+  border-right-width
+  border-bottom-width
+  border-left-width */
+
+/* border-width: top right bottom left; */
+
+/* border-top-color
+  border-right-color
+  border-bottom-color
+  border-left-color */
+
+/* border-color: top right bottom left; */
+
+/* -------------- MARGIN --------------- */
+/* margin-top 
+  margin-right
+  margin-bottom
+  margin-left */
+
+/* margin: top right bottom left; */
+/* 
+.box1,
+.box2 {
   background-color: steelblue;
   color: #fff;
   font-size: 20px;
   width: 200px;
   height: 200px;
   padding: 20px;
+} */
+
+.main {
+  background-color: steelblue;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: slateblue;
+  color: white;
+  margin-top: 50px;
 }
