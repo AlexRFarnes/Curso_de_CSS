@@ -1,0 +1,33 @@
+/* Selector universal */
+/* * {
+  color: tomato;
+} */
+
+/* Selector de tipo */
+/* p {
+  color: aqua;
+} */
+
+/* Selector de clase */
+/* .titulo {
+  color: blue;
+} */
+
+/* Selector de ID */
+/* #titulo {
+  color: rebeccapurple;
+
+  font-size: 2rem;
+} */
+
+/* Selectores combinadores */
+
+/* Descendientes " " */
+.abuelo .titulo {
+  color: tomato;
+}
+
+/* Descendientes directos ">" */
+.abuelo > .titulo {
+  text-decoration: underline;
+}
