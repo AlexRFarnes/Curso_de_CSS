@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 70px;
+  color: blueviolet;
+  background-color: aquamarine;
+}
+
+.background {
+  /* width: 300px; */
+  height: 600px;
+  /* margin: 50px; */
+  background-color: slateblue;
+  background-image: linear-gradient(
+      rgba(105, 90, 205, 0.5),
+      rgba(70, 131, 180, 0.5)
+    ),
+    url('./images/tablet.jpg');
+  background-size: cover;
+  background-position: center;
+  /* background-image: url('./images/cody.png'); */
+  /* background-size: 100px; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* top left bottom right center */
+  padding: 0.1px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 50px;
+}
