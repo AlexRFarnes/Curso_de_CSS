@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  height: 500px;
+  border: 2px solid #000;
+  margin: 80px auto;
+}
+
+.position {
+  width: 150px;
+  height: 100px;
+  font-size: 1.3rem;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.static {
+  background-color: salmon;
+  position: static; /* default */
+}
+
+.relative {
+  background-color: slateblue;
+  position: relative;
+  /* top, left, bottom, right */
+  top: 250px;
+  left: 150px;
+}
+
+.absolute {
+  background-color: steelblue;
+}
+
+.fixed {
+  background-color: rebeccapurple;
+}
