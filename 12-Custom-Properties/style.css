@@ -1,0 +1,35 @@
+:root {
+  --border-default: 3px solid #000;
+  --color-main: royalblue;
+
+  --padding-btn: 15px 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+.container {
+  --color-main: cadetblue;
+}
+
+.title {
+  color: var(--color-main);
+  /* border: var(--border-default, 3px solid var(--color-main)); */
+}
+
+.paragrpah {
+  color: var(--color-main);
+}
+
+.btn {
+  display: inline-block;
+  padding: var(--padding-btn);
+  background-color: var(--color-main);
+  color: #fff;
+  text-decoration: none;
+}
