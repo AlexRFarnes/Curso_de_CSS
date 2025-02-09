@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+}
+
+.button {
+  margin: 50px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 0;
+  text-align: center;
+  width: 200px;
+  transition: 0.5s all;
+}
+
+.btn-blue {
+  background-color: slateblue;
+}
+
+.btn-red {
+  background-color: crimson;
+}
+
+.btn-tomato {
+  background-color: tomato;
+}
+
+.btn-purple {
+  background-color: rebeccapurple;
+}
+
+/* selector de hermano adyacente */
+.btn-red:hover + * {
+  transform: translateX(40px);
+}
+
+/* selector de hermanos generales*/
+.btn-blue:hover ~ .button {
+  background-color: seagreen;
+}
+
+.element {
+  /* width: 200px;
+  height: 200px;
+  background-color: coral;
+  margin-left: 40px; */
+  background-color: steelblue;
+  color: #fff;
+  padding: 16px;
+  margin: 60px;
+  width: max-content;
+  font-size: 30px;
+  position: relative;
+}
+
+.element::before,
+.element::after {
+  content: '';
+  background-color: white;
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+
+.element::before {
+  border-right: 10px solid;
+  border-bottom: 10px solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.element::after {
+  border-right: 10px solid;
+  border-bottom: 10px solid;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.element:target {
+  background-color: aqua;
+}
+
+.input {
+  display: block;
+  margin: 20px;
+  padding: 16px;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.input:focus + .label {
+  color: red;
+}
+
+.check {
+  display: inline-block;
+  margin: 20px 0px 20px 20px;
+}
+
+.label {
+  background-color: crimson;
+  color: #fff;
+}
+
+.check:checked + .label {
+  background-color: seagreen;
+}
