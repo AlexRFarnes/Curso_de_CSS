@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.element {
+  width: 200px;
+  height: 200px;
+  background-color: steelblue;
+  margin: 60px;
+}
