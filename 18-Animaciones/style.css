@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.element {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  margin: 60px;
+  border-radius: 50%;
+
+  animation-name: change-color;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 5;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+
+@keyframes change-color {
+  from {
+    background-color: slateblue;
+  }
+  to {
+    background-color: aquamarine;
+  }
+}
