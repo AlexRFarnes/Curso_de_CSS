@@ -8,4 +8,16 @@
   height: 200px;
   background-color: steelblue;
   margin: 60px;
+  transition-property: background-color, transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.2s;
+
+  transition: background-color 0.5s ease-in-out 0.2s,
+    transform 0.5s ease-in-out 0.2s;
+}
+
+.container:hover .element {
+  background-color: slateblue;
+  transform: translate(200px);
 }
