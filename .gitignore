@@ -146,3 +146,5 @@ dist
 .DS_Store
 
 .prettierignore
+
+*:Zone.Identifier
